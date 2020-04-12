@@ -1,0 +1,51 @@
+ion-container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#btn {
+    margin-top: 2rem;
+}
+
+ion-list {
+    margin-top: 2rem;
+}
+
+.fadeIn {
+    animation-name: fivePhasesFadeIn;
+    animation-duration: 10s;
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem;
+  }
+ 
+  @keyframes fivePhasesFadeIn {
+    0% {
+      color: yellow;
+    }
+    25% {
+      color: red;
+    }
+    50% {
+      color: aqua;
+    }
+    75% {
+      color: darkblue;
+    }
+    100% {
+      color: darkred;
+    }
+  }
+
+  ion-toolbar {
+    --background: rgb(2,0,36);
+    --background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,57,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  ion-content {
+    --background: rgb(2,0,36);
+    --background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,110,1) 35%, rgba(0,212,255,1) 100%);
+  }
